@@ -1,11 +1,6 @@
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0.
- *
- * function main - Lists alphabets a to z
- */
+
+
 int main(void)
 {
 	char a;

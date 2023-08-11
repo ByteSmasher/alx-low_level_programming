@@ -1,20 +1,14 @@
 #include <stdio.h>
-/**
- * main - Entry point.
- *
- * function main - Prints A to Z without Q and E
- *
- * Return: Always 0.
- */
+
 int main(void)
 {
-	char bar;
+	char alph;
 
-	for (bar = 'a' ; bar <= 'z' ; bar++)
+	for (alph = 'a' ; alph <= 'z' ; alph++)
 	{
-		if (bar != 'e' && bar != 'q')
+		if (alph != 'e' && alph != 'q')
 		{
-			putchar(bar);
+			putchar(alph);
 		}
 	}
 	putchar('\n');

@@ -10,19 +10,19 @@
  */
 int main(void)
 {
-	int fm;
-	int bm;
+	int first;
+	int second;
 
-	for (fm = 10; fm <= 19; fm++)
+	for (first = 10; first <= 19; first++)
 	{
-		for (bm = 10; bm <= 19; bm++)
+		for (second = 10; second <= 19; second++)
 		{
-			if ((bm % 10) > (fm % 10))
+			if ((second % 10) > (first % 10))
 			{
-				putchar((fm % 10) + '0');
-				putchar((bm % 10) + '0');
+				putchar((first % 10) + '0');
+				putchar((second % 10) + '0');
 
-				if (fm != 18 || bm != 19)
+				if (first != 18 || second != 19)
 				{
 					putchar(',');
 					putchar(' ');

@@ -1,18 +1,12 @@
 #include<stdio.h>
-/**
- * main - Entry point.
- *
- * function main - Prints integers 0 to 9.
- *
- * Return: Always 0
- */
+
 int main(void)
 {
-	int jod;
+	int alph;
 
-	for (jod = 0; jod < 10; jod++)
+	for (alph = 0; alph < 10; alph++)
 	{
-		printf("%i", jod);
+		printf("%i", alph);
 	}
 	printf("\n");
 	return (0);

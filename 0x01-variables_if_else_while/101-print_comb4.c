@@ -1,11 +1,5 @@
 #include<stdio.h>
-/**
- * main - entry point
- *
- * main - Prints a combination of three digits
- *
- * Return: 0
- */
+
 int main(void)
 {
 	int A;

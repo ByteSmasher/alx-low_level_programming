@@ -1,18 +1,12 @@
 #include <stdio.h>
-/**
- * main - Entry point.
- *
- * function main - Print integers 0 to 9
- *
- * Return: Always 0.
- */
+
 int main(void)
 {
-	int fM;
+	int SD;
 
-	for (fM = 0; fM < 10 ; fM++)
+	for (SD = 0; SD < 10 ; SD++)
 	{
-		putchar('0' + fM);
+		putchar('0' + SD);
 	}
 	putchar('\n');
 	return (0);
