@@ -1,11 +1,13 @@
 #include<stdio.h>
 /**
- * main - entry point
+ * main - Prints all possible
+ * different combinations
+ * of two digits.
  *
- * A program that prints all possible different combinations of two digits.
- *
+ * Return: Always 0.
  *
  */
+
 int main(void)
 {
 	int first;

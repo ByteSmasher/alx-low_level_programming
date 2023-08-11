@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * main - entry point
- *
- * A program that prints all possible different combinations of four digits.
- *
+ * main - Prints all possible
+ * different combinations of
+ * four digits
+ * Return: Always 0.
  *
  */
+
 int main(void)
 {
 	int a, b, c, d;

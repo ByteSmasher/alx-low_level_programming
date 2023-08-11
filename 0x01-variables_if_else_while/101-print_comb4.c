@@ -1,11 +1,12 @@
 #include<stdio.h>
 /**
- * main - entry point
+ * main - Prints all possible
+ * combinations three digits.
  *
- * A program that prints all possible different combinations of three digits.
- *
+ * Return: Always 0.
  *
  */
+
 int main(void)
 {
 	int A;

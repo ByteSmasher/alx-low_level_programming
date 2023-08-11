@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
- * 
+ * main - Prints all lowercase
+ * alphabet in reverse
+ * followed by a new line.
  *
- * Prints the lowercase alphabet in reverse, followed by a new line.
- *
+ * Return: Always 0.
  *
  */
+
 int main(void)
 {
 	char rev;
