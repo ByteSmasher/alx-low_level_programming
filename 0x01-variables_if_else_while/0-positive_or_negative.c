@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  main - Assign a random number to n.
+ * main - Assign a random number to n.
  *
  * Return: Always 0.
  *
