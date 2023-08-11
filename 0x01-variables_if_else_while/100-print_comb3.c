@@ -2,11 +2,9 @@
 /**
  * main - entry point
  *
- * function main - a program that prints all
- * possible different combinations of two
- * digit numbers
+ * A program that prints all possible different combinations of two digits.
  *
- * Return: 0
+ *
  */
 int main(void)
 {
