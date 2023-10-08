@@ -1,22 +1,20 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet in lowercase
- * and then in uppercase
- * followed by a new line.
+ * main - Entry point
  *
- * Return: Always 0.
+ * function main - Prints the Alphabets alternatively
  *
+ * Return: Always 0
  */
-
 int main(void)
 {
-	char alph;
+	char dan;
 
-	for (alph = 'a' ; alph <= 'z' ; alph++)
+	for (dan = 'a' ; dan <= 'z' ; dan++)
 	{
-		putchar(alph);
+		putchar(dan);
 	}
-	for (alph = 'A' ; alph <= 'Z' ; alph++)
+	for (dan = 'A' ; dan <= 'Z' ; dan++)
 	{
 		putchar(dan);
 	}
